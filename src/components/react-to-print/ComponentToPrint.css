@@ -1,0 +1,180 @@
+a {
+    text-align: center;
+    border: 1px solid teal;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    padding: 2px 3px;
+}
+
+.content-to-print-container {
+  border: 1px dashed gray;
+  /* height: 400px; */
+  width: 500px;
+  /* background-color: coral; */
+  /* text-align: center; */
+  /* margin: 0 auto; */
+  padding: 15px;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-div-left {
+
+}
+
+.bus-company-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.company-address {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.branch-numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr, 1fr; */
+  column-gap: 0px;
+  row-gap: 0px;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . .";
+}
+
+.branch-numbers p {
+  font-size: 6px;
+  /* width: 115px; */
+}
+
+.small-text {
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+
+
+.top-div-right {
+    margin: 0 auto;
+}
+
+
+.top-div-right img {
+    height: 60px;
+    width: 100px;
+}
+
+.bill-of-lading {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.bill-of-lading span {
+    color: red;
+    font-weight: normal;
+}
+
+.shipping-details {
+    border: .5px solid rgb(88, 87, 87);
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.shipping-from div,.shipping-to div {
+    border: .5px solid rgb(88, 87, 87);
+    padding: 1px 3px;
+}
+
+.empty-div {
+    border-top: 1px solid transparent !important;
+    border-right: 1px solid rgb(88, 87, 87) !important;
+    border-left: 1px solid rgb(88, 87, 87) !important;
+    border-bottom: 1px solid rgb(88, 87, 87) !important;
+    height: 18px;
+
+}
+
+.shipping-from {
+    width: 100%;
+}
+
+.shipping-to {
+    width: 100%;
+}
+
+.table-description {
+    text-align: center;
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.table-amount {
+    font-size: 13px;
+    text-align: right;
+    border: 1px solid black;
+    padding: 3px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+.table-amount span {
+    border-bottom: 1px solid black;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+th {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+th, td {
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+}
+
+th:nth-child(1), td:nth-child(1) {
+    width: 40px;
+   
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 70px;
+   
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 100px;
+}
+
+
+th:nth-child(4), td:nth-child(4) {
+    width: 60px;
+}
+
+th:nth-child(5), td:nth-child(5) {
+    width: 60px;
+}
+
+th:nth-child(6), td:nth-child(6) {
+    width: 60px;
+}
+th:nth-child(7), td:nth-child(7) {
+    width: 50px;
+}

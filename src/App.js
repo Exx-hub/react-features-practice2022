@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import ClassPrint from "./components/react-to-print/ClassPrint";
+
+import FunctionalPrint from "./components/react-to-print/FunctionalPrint";
+import WrongUsageOfRefs from "./components/hooksPractice/userefs/WrongUsageOfRefs";
+import Counter from "./components/hooksPractice/userefs/Counter";
+import AppRef from "./components/hooksPractice/userefs/hiteshRef";
+import Test from "./Test";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      {/* <FunctionalPrint /> */}
+      <ClassPrint />
+      {/* <WrongUsageOfRefs /> */}
+      {/* <Counter /> */}
+
+      {/* <AppRef /> */}
+      {/* <Test /> */}
     </div>
   );
 }
