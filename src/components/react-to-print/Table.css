@@ -4,6 +4,7 @@
     padding: 2px;
     font-size: 14px;
     font-weight: bold;
+    background-color: lightgray;
 }
 
 .table-amount {
@@ -28,6 +29,7 @@ table {
 th {
     font-size: 12px;
     font-weight: bold;
+    background-color: lightgray;
 }
 
 th, td {
