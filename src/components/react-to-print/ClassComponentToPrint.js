@@ -100,14 +100,14 @@ class ComponentToPrint extends React.PureComponent {
 
         <div className="shipping-details">
           <div className="shipping-from">
-            <div>Shipped from</div>
+            <div className="shipped-from-to">Shipped from</div>
             <div>Sender:</div>
             <div>Address:</div>
             <div>TIN: Bus Style:</div>
             <div>Contact No.</div>
           </div>
           <div className="shipping-to">
-            <div>Shipped to</div>
+            <div className="shipped-from-to">Shipped to</div>
             <div>Consignee:</div>
             <div style={{ borderBottom: "1px solid transparent" }}>
               Address:

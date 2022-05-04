@@ -111,6 +111,12 @@ a {
     width: 100%;
 }
 
+.shipped-from-to {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
 
 .prepared-by-section {
     display: flex;
