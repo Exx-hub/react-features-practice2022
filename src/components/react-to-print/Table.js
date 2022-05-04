@@ -1,4 +1,5 @@
 import React from "react";
+import "./Table.css";
 
 export const Table = ({ records }) => {
   const amount = records.reduce((acc, cv) => {

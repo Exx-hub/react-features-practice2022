@@ -1,0 +1,68 @@
+.table-description {
+    text-align: center;
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.table-amount {
+    font-size: 13px;
+    text-align: right;
+    border: 1px solid black;
+    padding: 3px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+.table-amount span {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+th {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+th, td {
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+}
+
+th:nth-child(1), td:nth-child(1) {
+    width: 40px;
+   
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 70px;
+   
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 100px;
+}
+
+
+th:nth-child(4), td:nth-child(4) {
+    width: 60px;
+}
+
+th:nth-child(5), td:nth-child(5) {
+    width: 60px;
+}
+
+th:nth-child(6), td:nth-child(6) {
+    width: 60px;
+}
+th:nth-child(7), td:nth-child(7) {
+    width: 50px;
+}

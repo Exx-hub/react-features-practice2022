@@ -95,7 +95,7 @@ class ComponentToPrint extends React.PureComponent {
         </div>
 
         <div className="bill-of-lading">
-          BILL OF LADING: No. <span>470861</span>
+          BILL OF LADING No.: <span>470861</span>
         </div>
 
         <div className="shipping-details">
@@ -119,29 +119,72 @@ class ComponentToPrint extends React.PureComponent {
 
         <Table records={records} />
 
-        <div>
-          <div>prepared by</div>
-          <div>payment remitted to</div>
+        <div className="prepared-by-section">
+          <div>
+            <p className="prepared-by">Prepared By:</p>
+            <hr />
+            <p>Freight In Charge</p>
+          </div>
+          <div>
+            <p className="prepared-by">Payment Remitted to:</p>
+            <hr />
+            <p>Teller</p>
+          </div>
         </div>
 
-        <div>
+        <div className="dashed-line" />
+
+        <div className="acknowledgement-section">
           <div>Acknowledgement</div>
+          <p>
+            By signing in the space provided below, Shipper fully understands
+            and agrees to the Terms and Conditions indicated at the reverse side
+            of this Bill of Lading.
+          </p>
+          <h5>Shipper/Sender</h5>
+          <p>
+            I acknowledged receipt in good condition of the above consigned
+            goods or parcel without any complain. If with complain
+            _______________________________________________
+          </p>
+          <p>
+            _____________________________________________________________________________________.
+          </p>
         </div>
 
-        <div>
-          <div>complain</div>
+        <div className="original-senders-copy-section">
+          <div>
+            <div className="original">original sender's copy</div>
+            <div className="printer-details">
+              <p>
+                21 Falcon St, 09164209977, BIR Authority to Print No. 1234567
+              </p>
+              <p>Date of ATP 03-23-2022 Expiry Date: 03-22-2027</p>
+              <p>
+                <span>WILLING PRINTING PRESS</span> - VAT REG. TIN: 456-000-987
+              </p>
+              <p>Accreditation No. 567 - Date of Accreditation: 01/23/2019</p>
+            </div>
+          </div>
+
+          <div className="consignee-section">
+            <h3>Consignee or Authorized Reps</h3>
+            <p>
+              <span>Address:</span>__________________________________
+            </p>
+            <p>
+              <span>Valid ID: </span>__________________________________
+            </p>
+          </div>
         </div>
 
-        <hr />
-
-        <div>original sender's copy</div>
-
-        <div>
-          <div>printer address</div>
-          <div>consignee or authorized reps</div>
+        <div className="first-line">
+          "THIS BILL OF LADING SHALL BE VALID FOR FIVE (5) YEARS FROM THE DATE
+          OF ATP"
         </div>
-
-        <div>This bill of lading keme keme underlined</div>
+        <div className="second-line">
+          "THIS DOCUMENT IS NOT VALID FOR CLAIMING INPUT TAXES"
+        </div>
       </div>
     );
   }
