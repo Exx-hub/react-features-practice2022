@@ -5,7 +5,7 @@ function TestGorilla() {
   console.log("hello");
 
   useEffect(() => {
-    console.log("useeffect code");
+    console.log("test Gorilla useeffect code");
     setCount((c) => c + 1);
   }, []);
 
