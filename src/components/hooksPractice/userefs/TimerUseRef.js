@@ -11,7 +11,7 @@ function TimerUseRef() {
     setInput(e.target.value);
   };
 
-  console.log("rendered");
+  console.log("rendered the TimerUserRefComponent");
 
   const startTimer = () => {
     timerId.current = setInterval(() => {
