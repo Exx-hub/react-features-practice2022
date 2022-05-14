@@ -4,7 +4,7 @@ function AppRef() {
   const [myNum, setMyNum] = useState(0);
   console.log("re-render");
 
-  const inputOne = useRef(0);
+  const inputOne = useRef();
   const inputTwo = useRef();
 
   //   console.log(inputOne);
