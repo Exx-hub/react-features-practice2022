@@ -12,7 +12,7 @@ function ParentModal() {
     modalRef.current.openModal();
   };
 
-  console.log("parent rendered");
+  console.log("parent rendered/mounted");
 
   return (
     <div>
