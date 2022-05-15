@@ -16,6 +16,7 @@ import AppPerormanceLag from "./components/hooksPractice/useMemo/AppPerormanceLa
 import ExampleLayoutEffect from "./components/hooksPractice/useLayoutEffect/ExampleLayoutEffect";
 import TimerUseRef from "./components/hooksPractice/userefs/TimerUseRef";
 import TestGorilla from "./TestGorilla";
+import ParentModal from "./components/hooksPractice/useImperativeHandle/ParentModal";
 
 function App() {
   return (
@@ -37,8 +38,10 @@ function App() {
       {/* <SampleCallback /> */}
       {/* <AppPerormanceLag /> */}
 
-      <TimerUseRef />
-      <TestGorilla />
+      {/* <TimerUseRef /> */}
+      {/* <TestGorilla /> */}
+
+      <ParentModal />
     </div>
   );
 }
