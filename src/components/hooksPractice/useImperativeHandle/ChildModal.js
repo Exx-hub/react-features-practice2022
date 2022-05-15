@@ -11,6 +11,8 @@ function ChildModal(props, ref) {
   console.log("B1");
   if (!modalState) return null;
 
+  console.log("B2");
+  console.log("b2");
   return (
     <div>
       <p>This is my modal</p>
