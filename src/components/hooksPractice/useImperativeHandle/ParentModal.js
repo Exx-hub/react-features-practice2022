@@ -12,8 +12,8 @@ function ParentModal() {
     modalRef.current.openModal();
   };
 
-  console.log("parent rendered");
-  console.log("try2");
+  console.log("parent rendered/mounted");
+
   return (
     <div>
       <p>Parent Modal Component</p>
