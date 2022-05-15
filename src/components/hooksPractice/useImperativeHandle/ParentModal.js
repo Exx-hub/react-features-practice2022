@@ -13,7 +13,7 @@ function ParentModal() {
   };
 
   console.log("parent rendered/mounted");
-
+  console.log("A2");
   return (
     <div>
       <p>Parent Modal Component</p>
