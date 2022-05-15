@@ -8,7 +8,7 @@ function ChildModal(props, ref) {
   }));
 
   console.log("child rendered");
-
+  console.log("B1");
   if (!modalState) return null;
 
   return (
