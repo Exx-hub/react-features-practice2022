@@ -8,6 +8,11 @@ function ChildModal(props, ref) {
   }));
 
   console.log("child rendered");
+  console.log("TWO");
+  console.log("TWO");
+  console.log("TWO");
+  console.log("TWO");
+  console.log("TWO");
 
   if (!modalState) return null;
 
