@@ -7,13 +7,16 @@ function ParentModal() {
   console.log(modalRef.current);
 
   const handleOpenModal = () => {
-
     console.log("inside handleOpenModal TEST2");
 
     modalRef.current.openModal();
   };
 
   console.log("parent rendered");
+  console.log("ALVIN1");
+  console.log("ALVIN1");
+  console.log("ALVIN1");
+  console.log("ALVIN1");
   return (
     <div>
       <p>Parent Modal Component</p>
