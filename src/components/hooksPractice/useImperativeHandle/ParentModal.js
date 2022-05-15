@@ -5,7 +5,7 @@ function ParentModal() {
   const modalRef = useRef();
 
   console.log(modalRef.current);
-
+  console.log("A1");
   const handleOpenModal = () => {
     console.log("inside handleOpenModal");
 
