@@ -10,7 +10,7 @@ function ParentModal() {
     modalRef.current.openModal();
   };
 
-  console.log("parent rendered");
+  console.log("parent rendered test 1");
   return (
     <div>
       <p>Parent Modal Component</p>
