@@ -1,0 +1,161 @@
+.container {
+  border: 1px dashed gray;
+  width: 8.5in;
+  /* width: 100%; */
+  padding: 10px;
+}
+
+.top-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bus-company-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.company-address {
+  font-size: 10px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.branch-numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  column-gap: 0px;
+  row-gap: 0px;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . .";
+}
+
+.branch-numbers p {
+  font-size: 8px;
+}
+
+.top-logo img {
+  height: 60px;
+  width: 120px;
+}
+
+.email {
+  font-size: 9px;
+  margin-top: 1px;
+  text-align: center;
+}
+
+.copy-div {
+  font-weight: bold;
+}
+
+.copy-div span {
+  font-weight: normal;
+}
+
+.body {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.bl-value {
+  color: red;
+}
+
+.busno-date {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sender-receiver-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.details-title-text {
+  font-size: 1em;
+  color: black;
+}
+
+.details-value-text {
+  display: block;
+  white-space: nowrap;
+  width: auto;
+  padding-right: 1rem;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+  border-bottom: 1px dashed #333;
+}
+
+.table-container {
+  height: 82px;
+  max-height: 82px;
+  overflow: hidden;
+}
+
+.table-container table {
+  height: 100%;
+}
+
+.signatures-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  padding: 0 30px;
+}
+
+.signatures-section h4 {
+  text-align: center;
+}
+
+.signatures-section p {
+  width: 250px;
+  border-top: 1px solid black;
+  font-weight: 500;
+  padding-top: 3px;
+  text-align: center;
+}
+
+.dashed-line {
+  border-bottom: 2px dashed black;
+  margin: 3px 0;
+}
+
+.acknowledgement-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.acknowledgement-div p {
+  font-size: 10px;
+  text-align: center;
+}
+
+.shipper-signature {
+  margin-top: 10px;
+  margin-right: 16px;
+  width: 250px;
+  align-self: flex-end;
+}
+
+.shipper-signature p {
+  border-top: 1px solid black;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+.acknowledgement {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 5px;
+}

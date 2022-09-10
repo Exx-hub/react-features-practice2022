@@ -62,9 +62,7 @@ class ComponentToPrint extends React.PureComponent {
       <div className="content-to-print-container">
         <div className="top-div">
           <div className="top-div-left">
-            <div className="bus-company-name">
-              DEL MONTE LAND TRANSPORT BUS COMPANY, INC.
-            </div>
+            <div className="bus-company-name">{this.props.busCompany}</div>
             <div className="company-address">
               National Highway, Brgy Turbina, Calamba City, Laguna 4027
             </div>
@@ -95,7 +93,7 @@ class ComponentToPrint extends React.PureComponent {
         </div>
 
         <div className="bill-of-lading">
-          BILL OF LADING No.: <span>470861</span>
+          BILL OF LADING No.: <span>{this.props.blNumber}</span>
         </div>
 
         <div className="shipping-details">
@@ -148,7 +146,7 @@ class ComponentToPrint extends React.PureComponent {
             _______________________________________________
           </p>
           <p>
-            _____________________________________________________________________________________.
+            ________________________________________________________________________________.
           </p>
         </div>
 
